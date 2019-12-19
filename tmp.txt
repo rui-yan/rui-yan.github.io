@@ -1,0 +1,10 @@
+rle_obj = segms[t][c][i]
+if type(rle_obj['counts']) == np.ndarray:
+  # format of our masks: 'counts' are the 4 coordinates of a bbox
+  xmin, ymin, xmax, ymax = rle_obj['counts']
+  m = np.zeros((H, W))
+  m[xmin:xmax+1, ymin:ymax] = 1
+else:
+  # format of the provided mask (in coco format): 'counts' is a byte string
+  m = maskUtils.decode(rle_obj)  # Python COCO API
+
