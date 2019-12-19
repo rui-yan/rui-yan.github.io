@@ -1,18 +1,18 @@
-h1{ font-family: Nunito; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 23px; }
+h1 { font-family: Nunito; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 23px; }
 h2 { font-family: Nunito; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 28px; }
 h3 { font-family: Nunito; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; }
 h4 { font-family: Nunito; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 27px; }
 p {
-  font-family: Nunito; 
-  font-size: 16px; 
-  font-style: normal; 
-  font-variant: normal; 
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
   ''' font-weight: 100; '''
   line-height: 25px;
 }
+
 blockquote { font-family: Nunito; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
 pre { font-family: Nunito; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
-
 
 .hovereffect {
 width:100%;
@@ -96,7 +96,6 @@ filter:alpha(opacity=100);
 -webkit-transform:translatey(0);
 transform:translatey(0);
 }
-
 
 .hovereffect:hover a.info {
 -webkit-transition-delay:.1s;
