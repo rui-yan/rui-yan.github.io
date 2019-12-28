@@ -101,3 +101,21 @@ transform:translatey(0);
 -webkit-transition-delay:.1s;
 transition-delay:.1s;
 }
+
+.service-list {
+list-style-type: none;
+margin-left:0px;
+padding-left:0px;
+display: inline-block;
+}
+
+.service-list img
+{
+float:left;
+}
+
+.service-list p,.service-list h3 {
+text-align: right; 
+display:inline-block;
+padding: 0;
+}
