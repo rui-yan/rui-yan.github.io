@@ -114,8 +114,8 @@ display: inline-block;
 float:right;
 }
 
-.service-list p,.service-list h3 {
-text-align: right;
+.service-list p,.service-list span {
+text-align: left;
 display:inline-block;
 padding: 0;
 }
